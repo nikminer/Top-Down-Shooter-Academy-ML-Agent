@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: KnightAcademyEnveroment
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 80bb104fe57f73243a07a856c1055eaa, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: MaxEnvironmentSteps
+    value: 5000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: RedPref
+    value: 
+    objectReference: {fileID: 8701393612572823726, guid: f1910d648d680b643bb2fa90e06775d9, type: 3}
+  - target: {fileID: 0}
+    propertyPath: BluePref
+    value: 
+    objectReference: {fileID: 8882671023211571209, guid: 15eb0bc17607d9a43adbec128d4e31e7, type: 3}
+  - target: {fileID: 0}
+    propertyPath: maxAgentPerTeam
+    value: 2
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

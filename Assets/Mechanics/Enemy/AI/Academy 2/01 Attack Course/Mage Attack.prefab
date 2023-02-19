@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3398547002897824920
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.04366
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0000038146973
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.4321766
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605416335791461688, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_Name
+      value: Mage Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605416335791461690, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3224248383355369892, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+    - {fileID: 5977357202299620271, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+--- !u!1 &8395052028209457568 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6605416335791461688, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+  m_PrefabInstance: {fileID: 3398547002897824920}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2723718129538770330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 785463941605251330, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+  m_PrefabInstance: {fileID: 3398547002897824920}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &838011603638059722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8395052028209457568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4a4461f2b22a141ae871789bd1bb81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
+  team: 0
+  role: 1
+  speed: 20
+  projectile: {fileID: 679951400288649808, guid: 003a172e32ece7342a41b4b08ed631cb, type: 3}
+  stick: {fileID: 2723718129538770330}

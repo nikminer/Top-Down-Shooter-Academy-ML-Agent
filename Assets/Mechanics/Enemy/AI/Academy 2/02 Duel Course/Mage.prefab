@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5430193231595992553
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.13755941
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.77690125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827930070749663106, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605416335791461685, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_RayLength
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605416335791461685, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_SphereCastRadius
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605416335791461688, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_Name
+      value: Mage
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605416335791461690, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3224248383355369892, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+    - {fileID: 5977357202299620271, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+--- !u!1 &1220700694209355985 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6605416335791461688, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+  m_PrefabInstance: {fileID: 5430193231595992553}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &894637830955838303 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5130039399110532790, guid: 1642b23aa41867b4abedc789bc25f687, type: 3}
+  m_PrefabInstance: {fileID: 5430193231595992553}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6815275805561290488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220700694209355985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74c05bbeee2ab2448b6922c701687154, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
+  team: 0
+  role: 1
+  speed: 20
+  projectile: {fileID: 679951400288649808, guid: 003a172e32ece7342a41b4b08ed631cb, type: 3}
+  stick: {fileID: 894637830955838303}
